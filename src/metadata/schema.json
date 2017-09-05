@@ -16,6 +16,11 @@
             "apiKey"
         ]
     },
+    "steps":[
+        "Browse to https://account.arena.net",
+        "Register or log in",
+        "Create apiKey at https://account.arena.net/applications",
+    ],
     "blocks": [
         {
             "name": "getAccountInfo",
