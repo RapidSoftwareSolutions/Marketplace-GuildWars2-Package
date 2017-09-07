@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/searchGuild', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/guilds/";
+    $query_str = "https://api.guildwars2.com/v2/guild/search";
 
     
 

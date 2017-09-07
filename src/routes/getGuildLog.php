@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getGuildLog', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/guilds/{$data['guildId']}/log";
+    $query_str = "https://api.guildwars2.com/v2/guild/{$data['guildId']}/log";
 
     
 

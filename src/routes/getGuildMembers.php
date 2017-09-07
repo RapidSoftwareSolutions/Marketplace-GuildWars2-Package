@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getGuildMembers', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/guilds/{$data['guildId']}/members";
+    $query_str = "https://api.guildwars2.com/v2/guild/{$data['guildId']}/members";
 
     
 

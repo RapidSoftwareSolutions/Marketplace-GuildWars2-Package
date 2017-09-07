@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getGuildRanks', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/guilds/{$data['guildId']}/ranks";
+    $query_str = "https://api.guildwars2.com/v2/guild/{$data['guildId']}/ranks";
 
     
 

@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getSingleQuaggan', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/characters/{$data['quagganId']}";
+    $query_str = "https://api.guildwars2.com/v2/quaggans/{$data['quagganId']}";
 
     
 

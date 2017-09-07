@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getGuildTreasury', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/guilds/{$data['guildId']}/treasury";
+    $query_str = "https://api.guildwars2.com/v2/guild/{$data['guildId']}/treasury";
 
     
 

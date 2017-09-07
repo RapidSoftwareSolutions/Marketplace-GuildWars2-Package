@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getGuildStash', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/guilds/{$data['guildId']}/stash";
+    $query_str = "https://api.guildwars2.com/v2/guild/{$data['guildId']}/stash";
 
     
 

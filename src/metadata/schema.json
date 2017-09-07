@@ -19,7 +19,7 @@
     "steps":[
         "Browse to https://account.arena.net",
         "Register or log in",
-        "Create apiKey at https://account.arena.net/applications",
+        "Create apiKey at https://account.arena.net/applications"
     ],
     "blocks": [
         {
@@ -3209,7 +3209,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3256,7 +3256,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/log",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/log",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3299,7 +3299,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/members",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/members",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3340,7 +3340,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/ranks",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/ranks",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3381,7 +3381,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/stash",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/stash",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3422,7 +3422,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/teams",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/teams",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3463,7 +3463,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/treasury",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/treasury",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3504,7 +3504,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/{$data['guildId']}\/upgrades",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/{$data['guildId']}\/upgrades",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -3614,7 +3614,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/guilds\/",
+                "url": "https:\/\/api.guildwars2.com\/v2\/guild\/search",
                 "method": "get",
                 "requestParameters": [
                     {
@@ -5213,7 +5213,7 @@
                 }
             ],
             "vendorRequest": {
-                "url": "https:\/\/api.guildwars2.com\/v2\/characters\/{$data['quagganId']}",
+                "url": "https:\/\/api.guildwars2.com\/v2\/quaggans\/{$data['quagganId']}",
                 "method": "get",
                 "requestParameters": [
                     {
