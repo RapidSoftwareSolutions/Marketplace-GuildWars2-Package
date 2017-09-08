@@ -2918,8 +2918,59 @@
             ]
         },
         {
-            "name": "getEmblems",
-            "description": "This resource returns image resources that are needed to render guild emblems.",
+            "name": "getForegroundEmblems",
+            "description": "This resource returns image resources that are needed to render foreground guild emblems.",
+            "args": [
+                {
+                    "name": "apiKey",
+                    "type": "credentials",
+                    "info": "Your API key",
+                    "required": true
+                },
+                {
+                    "name": "ids",
+                    "type": "List",
+                    "structure": {
+                        "name": "id",
+                        "type": "String",
+                        "info": "Single Id"
+                    },
+                    "info": "Ids to return",
+                    "required": false,
+                    "vendorSchema": {
+                        "format": "toString:{,}"
+                    }
+                }
+            ],
+            "vendorRequest": {
+                "url": "https:\/\/api.guildwars2.com\/v2\/emblems",
+                "method": "get",
+                "requestParameters": [
+                    {
+                        "type": "query",
+                        "parameters": [
+                            "ids"
+                        ]
+                    }
+                ],
+                "headers": {
+                    "Authorization": "Bearer {$data['apiKey']}"
+                }
+            },
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getBackgroundEmblems",
+            "description": "This resource returns image resources that are needed to render background guild emblems.",
             "args": [
                 {
                     "name": "apiKey",

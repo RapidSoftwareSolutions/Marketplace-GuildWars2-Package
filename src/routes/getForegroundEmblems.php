@@ -1,6 +1,6 @@
 <?php
 
-$app->post('/api/GuildWars2/getEmblems', function ($request, $response) {
+$app->post('/api/GuildWars2/getForegroundEmblems', function ($request, $response) {
 
     $settings = $this->settings;
     $checkRequest = $this->validation;
@@ -24,7 +24,7 @@ $app->post('/api/GuildWars2/getEmblems', function ($request, $response) {
     $data['ids'] = \Models\Params::toString($data['ids'], ','); 
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/emblems";
+    $query_str = "https://api.guildwars2.com/v2/emblem/foregrounds";
 
     
 

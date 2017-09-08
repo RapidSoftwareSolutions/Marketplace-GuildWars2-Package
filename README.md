@@ -513,7 +513,15 @@ This resource returns details about each dungeon and it's associated paths.
 | language| Select     | Valid languages are en, es, de, fr, ko and zh. If no language parameter is set, the language defaults to en.
 | ids     | List       | Ids to return
 
-## GuildWars2.getEmblems
+## GuildWars2.getForegroundEmblems
+This resource returns image resources that are needed to render guild emblems.
+
+| Field | Type       | Description
+|-------|------------|----------
+| apiKey| credentials| Your API key
+| ids   | List       | Ids to return
+
+## GuildWars2.getBackgroundEmblems
 This resource returns image resources that are needed to render guild emblems.
 
 | Field | Type       | Description
