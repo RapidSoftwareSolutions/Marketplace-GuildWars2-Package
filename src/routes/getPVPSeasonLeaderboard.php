@@ -23,7 +23,7 @@ $app->post('/api/GuildWars2/getPVPSeasonLeaderboard', function ($request, $respo
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.guildwars2.com/v2/pvp/seasons/{$data['seasonId']}/{$data['endpoint']}/{$data['region']}";
+    $query_str = "https://api.guildwars2.com/v2/pvp/seasons/{$data['seasonId']}/leaderboards/{$data['endpoint']}/{$data['region']}";
 
     
 
