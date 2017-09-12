@@ -35,7 +35,7 @@ Class checkRequest {
         } else {
             if(!empty($reqFields)) {
                 foreach($reqFields as $item) {
-                    if(empty($post_data['args'][$item])) {
+                    if(strlen($post_data['args'][$item]) == 0 && count($post_data['args'][$item]) == 0) {
                         $error[] = $item;
                     }
                 }
