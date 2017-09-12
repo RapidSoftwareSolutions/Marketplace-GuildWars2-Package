@@ -2,7 +2,7 @@
 
 # GuildWars2 Package
 Guild Wars 2 is a massively multiplayer online role-playing game developed by ArenaNet and published by NCSOFT
-* Domain: [GuildWars2](http://https://guildwars2.com)
+* Domain: [GuildWars2](https://guildwars2.com)
 * Credentials: apiKey
 
 ## How to get credentials: 
@@ -408,7 +408,7 @@ This resource returns current aggregated buy and sell listing information from t
 | ids   | List       | Pricing ids to return
 
 ## GuildWars2.getCommerceTransactions
-This resource provides access to the current and historical transactions of a player. This is an authenticated endpoint. Results are cached for five minutes.[1]
+This resource provides access to the current and historical transactions of a player. This is an authenticated endpoint. Results are cached for five minutes.
 
 | Field | Type       | Description
 |-------|------------|----------

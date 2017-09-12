@@ -2171,7 +2171,7 @@
         },
         {
             "name": "getCommerceTransactions",
-            "description": "This resource provides access to the current and historical transactions of a player. This is an authenticated endpoint. Results are cached for five minutes.[1]",
+            "description": "This resource provides access to the current and historical transactions of a player. This is an authenticated endpoint. Results are cached for five minutes.",
             "args": [
                 {
                     "name": "apiKey",
